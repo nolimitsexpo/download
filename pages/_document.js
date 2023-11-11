@@ -86,8 +86,7 @@ class MyDocument extends Document {
             Get free thumbnail images of all YouTube videos in Full HD (1080),
             HD (720), SD and even small sizes. Currently supported formats:
             YouTube videos (HD, HQ, 1080p, 4K)
-          </p>
-          <p>
+<br>
             What is this YouTube Thumbnail Grabber website for? People use this
             YouTube thumbnail download website to get thumbnails of any YouTube
             video. This can be used in presentations, animation work, or many
