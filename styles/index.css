@@ -2,8 +2,8 @@
 
 /* Set the base font and background color for the entire app */
 body {
-  font-family: Rubic, sans-serif;
-  background-color: #f7fafc;
+  font-family: 'Rubik', sans-serif; font-weight: 600;
+  background-color: #FFFFFF;
 }
 
 /* Center align the content in the container */
