@@ -77,11 +77,10 @@ class MyDocument extends Document {
             </ul>
           </nav>
         </header>
-        </div>
-
+        
         <Main />
         <NextScript />
-
+        <body>  
           {/* Add the provided text */}
         <div>
           <p>
@@ -151,6 +150,7 @@ class MyDocument extends Document {
             download the thumbnail of a YouTube video
             www.downloadthumbnailfromyt.com - Copyright 2021
           </p>
+              </div>
       </body>
     </Html>
     );
