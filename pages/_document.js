@@ -80,7 +80,6 @@ class MyDocument extends Document {
         
         <Main />
         <NextScript />
-        <body>  
           {/* Add the provided text */}
         <div>
           <p>
