@@ -1,4 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
+import React from "react";
 
 class MyDocument extends Document {
   render() {
@@ -23,8 +24,20 @@ class MyDocument extends Document {
             href="/favicon/favicon-16x16.png"
           />
           <link rel="manifest" href="/favicon/site.webmanifest" />
-    
-              </Head> 
+
+          {/* Add your Google Analytics script */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-364TCL2H0V"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-364TCL2H0V');
+              `,
+            }}
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
