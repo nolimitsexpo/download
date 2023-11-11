@@ -39,6 +39,17 @@ class MyDocument extends Document {
           />
         </Head>
         <body>
+          {/* Add your menu here */}
+          <header>
+            <nav>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+              </ul>
+            </nav>
+          </header>
+
           <Main />
           <NextScript />
         </body>
