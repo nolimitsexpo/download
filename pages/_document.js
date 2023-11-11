@@ -93,9 +93,9 @@ class MyDocument extends Document {
             video. This can be used in presentations, animation work, or many
             other activities.
           </p>
+              <h2>How to use this website to download YouTube thumbnails?</h2>
           <p>
-            How to use this website to download YouTube thumbnails? I have
-            shared some screenshots in which I have explained to you how to use
+             I have shared some screenshots in which I have explained to you how to use
             this YouTube downloader website. The first step is pretty simple:
             simply copy any YouTube link you want a thumbnail for. download
             YouTube cover You can easily download the cover of your tube
