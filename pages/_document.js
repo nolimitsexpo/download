@@ -78,22 +78,22 @@ class MyDocument extends Document {
           </nav>
         </header>
 
-        <Main />
-        <NextScript />
-          {/* Add the provided text */}
+        {/* Add the provided text */}
         <div>
           <p>
             Get free thumbnail images of all YouTube videos in Full HD (1080),
             HD (720), SD and even small sizes. Currently supported formats:
-            YouTube videos (HD, HQ, 1080p, 4K)<br />
+            YouTube videos (HD, HQ, 1080p, 4K)
+          </p>
+          <p>
             What is this YouTube Thumbnail Grabber website for? People use this
             YouTube thumbnail download website to get thumbnails of any YouTube
             video. This can be used in presentations, animation work, or many
             other activities.
           </p>
-              <h2>How to use this website to download YouTube thumbnails?</h2>
+            <h2>How to use this website to download YouTube thumbnails? </h2>   
           <p>
-             I have shared some screenshots in which I have explained to you how to use
+            I have shared some screenshots in which I have explained to you how to use
             this YouTube downloader website. The first step is pretty simple:
             simply copy any YouTube link you want a thumbnail for. download
             YouTube cover You can easily download the cover of your tube
@@ -106,9 +106,9 @@ class MyDocument extends Document {
             you need to save these images and if you use an iPhone I don't know
             how to do it?
           </p>
+          <h2>Is it legal to download YouTube thumbnails? </h2>
           <p>
-            Is it legal to download YouTube thumbnails? Of course, it is 100%
-            legal to download any YouTube video thumbnail, but as you know,
+            Of course, it is 100% legal to download any YouTube video thumbnail, but as you know,
             thumbnails and videos are copyrighted products, you must obtain
             copyright permissions to be able to reuse them.
           </p>
@@ -120,9 +120,9 @@ class MyDocument extends Document {
             work well on almost all types of Android devices and laptop or
             desktop systems.
           </p>
+              <h2>Is there a copyright risk in YouTube thumbnails?</h2>
           <p>
-            Is there a copyright risk in YouTube thumbnails? Any YouTube
-            screenshot you upload has the respective copyright of the owner of
+            Any YouTube screenshot you upload has the respective copyright of the owner of
             such videos. If you want to use it in your work, you must request
             permission.
           </p>
@@ -133,8 +133,9 @@ class MyDocument extends Document {
             receives almost no DMCA complaints regarding this particular YouTube
             thumbnail.
           </p>
+          <h2>Is reusing YouTube thumbnails SEO friendly?</h2>
           <p>
-            Is reusing YouTube thumbnails SEO friendly? No, it's not, in short
+             No, it's not, in short
             it's not very easy to use because almost all the thumbnails on
             YouTube are indexed by Google. So Google knows which is unique and
             which is duplicate. So it's not SEO optimized, as you know. But you
@@ -147,6 +148,9 @@ class MyDocument extends Document {
             www.downloadthumbnailfromyt.com - Copyright 2021
           </p>
         </div>
+
+        <Main />
+        <NextScript />
       </body>
     </Html>
     );
