@@ -39,30 +39,32 @@ class MyDocument extends Document {
           />
 
           {/* Add styles for the menu */}
-          <style>
-            {`
-              header {
-                background-color: #f0f0f0;
-                padding: 10px;
-              }
+          <style>{`
+            header {
+              text-align: center;
+            }
 
-              nav ul {
-                list-style: none;
-                padding: 0;
-                display: flex;
-              }
+            nav {
+              display: inline-block;
+            }
 
-              nav li {
-                margin-right: 20px;
-              }
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
 
-              nav a {
-                text-decoration: none;
-                color: blue;
-                font-weight: bold;
-              }
-            `}
-          </style>
+            li {
+              display: inline;
+              margin-right: 20px;
+            }
+
+            a {
+              color: blue;
+              font-weight: bold;
+              text-decoration: none;
+            }
+          `}</style>
         </Head>
         <body>
           {/* Add your menu here */}
