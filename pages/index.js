@@ -40,7 +40,7 @@ const Index = () => {
           Download Thumbnail From Youtube
         </h1>
         <p className="text-gray-600">
-          Download high-quality thumbnails from YouTube videos.
+          Download thumbnails from YouTube videos in various qualities using this straightforward Thumbnail Downloader. Simply enter the YouTube video URL or ID below, select the desired quality, and download the thumbnail.
         </p>
       </header>
       <div className="text-center">
