@@ -39,7 +39,7 @@ const Index = () => {
         <h1 className="text-3xl font-bold mb-2">
           Download Thumbnail From Youtube
         </h1>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-center">
           Download thumbnails from YouTube videos in various qualities using this straightforward Thumbnail Downloader. Simply enter the YouTube video URL or ID below, select the desired quality, and download the thumbnail.
         </p>
       </header>
