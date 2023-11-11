@@ -37,6 +37,32 @@ class MyDocument extends Document {
               `,
             }}
           />
+
+          {/* Add styles for the menu */}
+          <style>
+            {`
+              header {
+                background-color: #f0f0f0;
+                padding: 10px;
+              }
+
+              nav ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+              }
+
+              nav li {
+                margin-right: 20px;
+              }
+
+              nav a {
+                text-decoration: none;
+                color: blue;
+                font-weight: bold;
+              }
+            `}
+          </style>
         </Head>
         <body>
           {/* Add your menu here */}
