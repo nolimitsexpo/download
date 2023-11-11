@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
           url: "https://your-website-url.com",
           title: "Downloade Thumbnail From Youtube",
           description: "Download high-quality thumbnails from YouTube videos. with Our Youtube Thumbnail Grabber",
-          site_name: "Downloade Thumbnail From Youtube",
+          site_name: "Download Thumbnail From Youtube",
         }}
       />
       <Component {...pageProps} />
