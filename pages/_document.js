@@ -78,6 +78,23 @@ class MyDocument extends Document {
             </nav>
           </header>
 
+          {/* Add the provided text */}
+          <div>
+            <p>
+              Get free thumbnail images of all YouTube videos in Full HD (1080),
+              HD (720), SD and even small sizes. Currently supported formats:
+              YouTube videos (HD, HQ, 1080p, 4K)
+            </p>
+            <p>
+              What is this YouTube Thumbnail Grabber website for? People use this
+              YouTube thumbnail download website to get thumbnails of any YouTube
+              video. This can be used in presentations, animation work, or many
+              other activities.
+            </p>
+            {/* Add the rest of the text here */}
+            {/* ... */}
+          </div>
+
           <Main />
           <NextScript />
         </body>
