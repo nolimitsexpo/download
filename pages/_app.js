@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <DefaultSeo
-        title="Downloade Thumbnail From Youtube"
+        title="Download Thumbnail From Youtube"
         description="Download high-quality thumbnails from YouTube videos."
         canonical="https://your-website-url.com"
         openGraph={{
