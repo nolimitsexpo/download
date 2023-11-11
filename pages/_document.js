@@ -77,8 +77,12 @@ class MyDocument extends Document {
             </ul>
           </nav>
         </header>
+        </div>
 
-        {/* Add the provided text */}
+        <Main />
+        <NextScript />
+      <body>
+          {/* Add the provided text */}
         <div>
           <p>
             Get free thumbnail images of all YouTube videos in Full HD (1080),
@@ -147,10 +151,6 @@ class MyDocument extends Document {
             download the thumbnail of a YouTube video
             www.downloadthumbnailfromyt.com - Copyright 2021
           </p>
-        </div>
-
-        <Main />
-        <NextScript />
       </body>
     </Html>
     );
