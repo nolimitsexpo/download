@@ -82,7 +82,6 @@ class MyDocument extends Document {
         <NextScript />
           {/* Add the provided text */}
         <div>
-          <center>
           <p>
             Get free thumbnail images of all YouTube videos in Full HD (1080),
             HD (720), SD and even small sizes. Currently supported formats:
@@ -150,7 +149,6 @@ class MyDocument extends Document {
             download the thumbnail of a YouTube video
             www.downloadthumbnailfromyt.com - Copyright 2021
           </p>
-              </center>
               </div>
       </body>
     </Html>
