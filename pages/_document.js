@@ -80,6 +80,7 @@ class MyDocument extends Document {
         
         <Main />
         <NextScript />
+          <center>
           {/* Add the provided text */}
         <div>
           <p>
@@ -150,6 +151,7 @@ class MyDocument extends Document {
             www.downloadthumbnailfromyt.com - Copyright 2021
           </p>
               </div>
+              </center>
       </body>
     </Html>
     );
