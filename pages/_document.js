@@ -1,105 +1,90 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 import React from "react";
+import { Analytics } from '@vercel/analytics/react';
 
 class MyDocument extends Document {
   render() {
     return (
-    <Html lang="en">
-      <Head>
-        <link
-          rel="apple-touch-icon"
-          sizes="180x180"
-          href="/favicon/apple-touch-icon.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon/favicon-16x16.png"
-        />
-        <link rel="manifest" href="/favicon/site.webmanifest" />
+      <Html lang="en">
+        <Head>
+          <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="/favicon/apple-touch-icon.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="/favicon/favicon-32x32.png"
+          />
+          <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="/favicon/favicon-16x16.png"
+          />
+          <link rel="manifest" href="/favicon/site.webmanifest" />
 
-        {/* Add your Google Analytics script */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-364TCL2H0V"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-364TCL2H0V');
-            `,
-          }}
-        />
+          {/* Add your Google Analytics script */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-364TCL2H0V"></script>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-364TCL2H0V');
+              `,
+            }}
+          />
 
-        {/* Add styles for the menu */}
-        <style>{`
-          header {
-            text-align: center;
-          }
+          {/* Add styles for the menu */}
+          <style>{`
+            header {
+              text-align: center;
+            }
 
-          nav {
-            display: inline-block;
-          }
+            nav {
+              display: inline-block;
+            }
 
-          ul {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-          }
+            ul {
+              list-style: none;
+              padding: 0;
+              margin: 0;
+            }
 
-          li {
-            display: inline;
-            margin-right: 20px;
-          }
+            li {
+              display: inline;
+              margin-right: 20px;
+            }
 
-          a {
-            color: blue;
-            font-weight: bold;
-            text-decoration: none;
-          }
-        `}</style>
-      </Head>
-          import { Analytics } from '@vercel/analytics/react';
- 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
-  return (
-    <html lang="en">
-      <head>
-        <title>Next.js</title>
-      </head>
-      <body>
-        {children}
-        <Analytics />
-      </body>
-    </html>
-  );
-}
-      <body>
-        {/* Add your menu here */}
-        <header>
-          <nav>
-            <ul>
-              <li><a href="/">Home</a></li>
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/contact-us">Contact Us</a></li>
-            </ul>
-          </nav>
+            a {
+              color: blue;
+              font-weight: bold;
+              text-decoration: none;
+            }
+          `}</style>
+        </Head>
         
-        </header>
-        
-        <Main />
-        <NextScript />
+        <body>
+          <Analytics />
+          
+          {/* Add your menu here */}
+          <header>
+            <nav>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/privacy-policy">Privacy Policy</a></li>
+                <li><a href="/contact-us">Contact Us</a></li>
+              </ul>
+            </nav>
+          </header>
+          
+          <Main />
+          <NextScript />
+            
           <center>
           {/* Add the provided text */}
         <div>
