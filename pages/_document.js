@@ -72,7 +72,7 @@ class MyDocument extends Document {
         <header>
           <nav>
             <ul>
-              <li><a href="www.downloadthumbnailfromyt.com">Home</a></li>
+              <li><a href="https://downloadthumbnailfromyt.com">Home</a></li>
               <li><a href="https://youtubethumbnailsdownloadgrabber.com/privacy-policy/">Privacy Policy</a></li>
               <li><a href="https://youtubethumbnailsdownloadgrabber.com/contact-us/">Contact Us</a></li>
             </ul>
