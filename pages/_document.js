@@ -65,6 +65,22 @@ class MyDocument extends Document {
             text-decoration: none;
           }
         `}</style>
+
+          import { Analytics } from '@vercel/analytics/react';
+ 
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <head>
+        <title>Next.js</title>
+      </head>
+      <body>
+        {children}
+        <Analytics />
       </Head>
       <body>
         {/* Add your menu here */}
@@ -76,6 +92,7 @@ class MyDocument extends Document {
               <li><a href="/contact-us">Contact Us</a></li>
             </ul>
           </nav>
+        
         </header>
         
         <Main />
