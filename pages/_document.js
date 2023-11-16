@@ -65,7 +65,7 @@ class MyDocument extends Document {
             text-decoration: none;
           }
         `}</style>
-
+      </Head>
           import { Analytics } from '@vercel/analytics/react';
  
 export default function RootLayout({
@@ -81,7 +81,10 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
-      </Head>
+      </body>
+    </html>
+  );
+}
       <body>
         {/* Add your menu here */}
         <header>
